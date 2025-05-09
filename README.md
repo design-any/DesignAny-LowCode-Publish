@@ -1,6 +1,12 @@
 ![1746603003045](https://github.com/design-any/images/blob/main/designany/1746603003045.jpg)
 ![1746603054823](https://github.com/design-any/images/blob/main/designany/1746603054823.jpg)
 
+#### 试用
+
+http://njttac.ikuai5.com:63689/web/index.html
+
+账号/密码:   123/123
+
 #### 介绍
 
 DesignAny 是一款低代码（lowcode）工具。其设计目标简化软件开发的流程，减少开发配置，调试，发布。让软件开发成为一个简单的事情。

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebSocketServer</name>
+    </assembly>
+    <members>
+        <member name="M:WebSocketServer.WebSocketServer.#ctor(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="serveraddr">ip:port</param>
+        </member>
+        <member name="M:WebSocketServer.WebSocketHandler.ReceiveAsync(System.Net.WebSockets.WebSocket,System.String,System.String,System.String)">
+            接收到客户端的消息，进行转发
+        </member>
+        <member name="T:WebSocketServer.msgType">
+            <summary>
+            webSocket消息类型:
+            0-999为系统消息,
+            1000-9999为客户端消息
+            </summary> 
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onMachineOnline">
+            <summary>
+            当自己的设备上线
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onMachineDownline">
+            <summary>
+            当自己的设备下线
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onGetMyMachine">
+            <summary>
+            当获取到自己在线的设备
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_clientNotOnline">
+            <summary>
+            客户端不在线
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_startPlay">
+            <summary>
+            开始直播
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onPlayServerOfferCreated">
+            <summary>
+            直播服务端创建offer成功
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_setPlayServerAnswer">
+            <summary>
+            直播端创建answer给服务端
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onPlayServerIcecandidate">
+            <summary>
+            直播服务端创建了icecandidate
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onPlayerIcecandidate">
+            <summary>
+            直播端创建了icecandidate
+            </summary>
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onWatchPlay">
+            <summary>
+            观看直播
+            </summary> 
+        </member>
+        <member name="F:WebSocketServer.msgType.system_onWatcherOfferCreated">
+            <summary>
+            观看者offer创建成功
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:WebSocketServer.msgType.system_onWatcherIcecandidate" -->
+        <member name="F:WebSocketServer.msgType.system_setWatcherAnswer">
+            <summary>
+            直播端创建answer给服务端
+            </summary>
+        </member>
+    </members>
+</doc>

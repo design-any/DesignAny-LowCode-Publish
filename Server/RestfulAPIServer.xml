@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestfulAPIServer</name>
+    </assembly>
+    <members>
+        <member name="M:RestfulAPIServer.RestfulAPIServer.#ctor(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="serveraddr">ip:port</param>
+        </member>
+        <member name="T:RestfulAPIServer.Attributes.ApiInfoAttribute">
+            <summary>
+            Api特性
+            </summary>
+            
+        </member>
+        <member name="P:RestfulAPIServer.Attributes.ApiInfoAttribute.NeedAuth">
+            <summary>
+            是否需要身份验证
+            </summary>
+        </member>
+        <member name="T:RestfulAPIServer.webapiControllers.DesignPageController">
+            <summary>
+            设计页面的基础接口
+            </summary>
+        </member>
+        <member name="M:RestfulAPIServer.webapiControllers.DesignPageController.SetDefaultPage(System.String)">
+            <summary>
+            设置默认页
+            </summary>
+            <param name="pageId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestfulAPIServer.webapiControllers.webapiFilter.APIExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            发生异常时进入
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:RestfulAPIServer.webapiControllers.webapiFilter.APIExceptionFilter.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            异步发生异常时进入
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,212 @@
+.topnodediv[data-v-399dfd86] {
+  font-size: 12px;
+}
+
+.title[data-v-2009020b] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.content[data-v-2009020b] {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.sql {
+  /* 自定义锚点样式 */
+}
+.sql .table-container {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.sql .table-node {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgb(0 0 0%);
+}
+.sql .table-node::before {
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: #d79b00;
+  content: '';
+}
+.sql .table-node.table-color-1::before {
+  background: #9673a6;
+}
+.sql .table-node.table-color-2::before {
+  background: #dae8fc;
+}
+.sql .table-node.table-color-3::before {
+  background: #82b366;
+}
+.sql .table-node.table-color-4::before {
+  background: #f8cecc;
+}
+.sql .table-name {
+  height: 28px;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  background: #f5f5f5;
+}
+.sql .table-feild {
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.sql .feild-type {
+  color: #9f9c9f;
+}
+.sql .custom-anchor {
+  cursor: crosshair;
+  fill: #d9d9d9;
+  stroke: #999;
+  stroke-width: 1;
+  rx: 3;
+  ry: 3;
+}
+.sql .custom-anchor {
+  fill: #ff7f0e;
+  stroke: #ff7f0e;
+}
+.sql .lf-node-not-allow .custom-anchor {
+  cursor: not-allowed;
+  fill: #d9d9d9;
+  stroke: #999;
+}
+.sql .incomming-anchor {
+  stroke: #d79b00;
+}
+.sql .outgoing-anchor {
+  stroke: #82b366;
+}
+
+
+.el-radio[data-v-652e1ab8] {
+  width: 100%;
+}
+
+.title[data-v-1ebd425c] {
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.content[data-v-1ebd425c] {
+  width: 100%;
+  height: calc(100% - 35px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.content[data-v-1ebd425c] .el-collapse-item {
+  border: none;
+}
+.content[data-v-1ebd425c] .el-collapse-item__header {
+  height: 30px;
+  border: none;
+}
+.paramName[data-v-1ebd425c] {
+  font-size: 15px;
+  font-weight: 500;
+}
+.paramVal[data-v-1ebd425c] {
+  font-size: 12px;
+}
+
+.topnodediv[data-v-404876f8] {
+  font-size: 12px;
+}
+
+.sql {
+  /* 自定义锚点样式 */
+}
+.sql .table-container {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.sql .table-node {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgb(0 0 0%);
+}
+.sql .table-node::before {
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: #d79b00;
+  content: '';
+}
+.sql .table-node.table-color-1::before {
+  background: #9673a6;
+}
+.sql .table-node.table-color-2::before {
+  background: #dae8fc;
+}
+.sql .table-node.table-color-3::before {
+  background: #82b366;
+}
+.sql .table-node.table-color-4::before {
+  background: #f8cecc;
+}
+.sql .table-name {
+  height: 28px;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  background: #f5f5f5;
+}
+.sql .table-feild {
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.sql .feild-type {
+  color: #9f9c9f;
+}
+.sql .custom-anchor {
+  cursor: crosshair;
+  fill: #d9d9d9;
+  stroke: #999;
+  stroke-width: 1;
+  rx: 3;
+  ry: 3;
+}
+.sql .custom-anchor {
+  fill: #ff7f0e;
+  stroke: #ff7f0e;
+}
+.sql .lf-node-not-allow .custom-anchor {
+  cursor: not-allowed;
+  fill: #d9d9d9;
+  stroke: #999;
+}
+.sql .incomming-anchor {
+  stroke: #d79b00;
+}
+.sql .outgoing-anchor {
+  stroke: #82b366;
+}
+
